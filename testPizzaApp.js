@@ -1,7 +1,12 @@
+// Import PizzaApp class
 const PizzaApp = require('./PizzaApp');
 
+// Function of testEnsureNoDuplicateRestaurants will test 
+// add Restaurant
+// Also logs name of test case
+
 function testEnsureNoDuplicateRestaurants() {
-    console.log("Running Test Case: TC-001-PIZZA-LIST");
+    console.log("Running Test Case: PizzaApp");
 
     // Preconditions: Initialize the app
     const app = new PizzaApp();

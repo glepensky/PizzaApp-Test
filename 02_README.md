@@ -1,4 +1,4 @@
-# Test Case 
+# Test Case
 
 Test Title: Ensure a pizza restaurant is not added to the pizza list twice
 
@@ -18,7 +18,7 @@ Expected Result:
 The list contains "Wrecktangle Pizza" only once, even after attempting to add it twice.
 
 Actual Result:
-To be filled during testing
+To be filled during testing.
 
 Status:
 Pass or Fail

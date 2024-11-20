@@ -1,12 +1,13 @@
 # User story:
+
 As a user of this Pizza List app, I want to be able to make sure that
 I cannot add the same restaurant twice (prevent duplicate entries).
 
-*Who*
+_Who_
 The user/customer who loves pizza.
 
-*What*
-The ability to add a resturant to my list. 
+_What_
+The ability to add a resturant to my list.
 
-*Why*
+_Why_
 To have an accurate list.
