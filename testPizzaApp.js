@@ -29,7 +29,7 @@ function testEnsureNoDuplicateRestaurants() {
     }
 
     if (JSON.stringify(restaurants) !== JSON.stringify(['Wrecktangle Pizza'])) {
-        console.error("FAIL: The restaurant list should contain only one 'Pizza Palace'.");
+        console.error("FAIL: The restaurant list should contain only one 'Wrecktangle Pizza'.");
         return;
     }
 
