@@ -1,4 +1,4 @@
-# Test Case ID: TC-001-PIZZA-LIST
+# Test Case 
 
 Test Title: Ensure a pizza restaurant is not added to the pizza list twice
 
