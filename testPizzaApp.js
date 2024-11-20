@@ -1,13 +1,13 @@
 const PizzaApp = require('./PizzaApp');
 
 function testEnsureNoDuplicateRestaurants() {
-    console.log("Running Test Case: TC-002-PIZZA-LIST");
+    console.log("Running Test Case: TC-001-PIZZA-LIST");
 
     // Preconditions: Initialize the app
     const app = new PizzaApp();
 
     // Test Steps
-    const restaurant = 'Pizza Palace';
+    const restaurant = 'Wrecktangle Pizza';
     const firstAdd = app.addRestaurant(restaurant); // Step 1
     const secondAdd = app.addRestaurant(restaurant); // Step 2
     const restaurants = app.getRestaurants(); // Step 3
@@ -23,7 +23,7 @@ function testEnsureNoDuplicateRestaurants() {
         return;
     }
 
-    if (JSON.stringify(restaurants) !== JSON.stringify(['Pizza Palace'])) {
+    if (JSON.stringify(restaurants) !== JSON.stringify(['Wrecktangle Pizza'])) {
         console.error("FAIL: The restaurant list should contain only one 'Pizza Palace'.");
         return;
     }
