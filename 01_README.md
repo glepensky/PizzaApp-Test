@@ -10,4 +10,4 @@ _What_
 The ability to add a resturant to my list.
 
 _Why_
-To have an accurate list.
+To have an accurate list that creates a better experience.
